@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#corpo{
+
+   position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0 , #ffffff, #4268dd);
+    background-image: url('https://miro.medium.com/max/700/1*HdoBMfNyMynmqemn7D5AzQ.png');
+    opacity: 0.99;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f5f5f0;
+    margin-top: ;   
+    padding: 30px;
+    text-align: center;
+    
+}
+
+
+.container-cripto{
+    display: table-cell;
+    
+}
+.container-descripto{
+    display: table-cell;
+    
+}
+
+
+#entrada{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 3px;
+    background-color:  #f5f5f0;
+    box-sizing: border-box;
+    display: table;
+    margin: auto;
+    resize: none;
+    margin-left: 30px;
+    
+    
+   
+    
+}
+#saida{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 3px;
+    background-color:  #f5f5f0;
+    box-sizing: border-box;
+    display: block;
+    resize: none;
+    margin-left: 30px;
+}
+#botaoCripto {
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 10px 80px ;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto;
+    margin-left: 33px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #botaoCripto:hover {
+    background-color: rgb(0, 255, 221);
+    color: rgb(255, 255, 255);
+    
+}
+
+#botaoDescripto {
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 10px 70px ;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto;
+    margin-left: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+  }
+  #botaoDescripto:hover{
+    background-color: rgb(0, 255, 221);
+    color: rgb(255, 255, 255);
+    
+  }
+
+  #botaoCopia {
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 10px 70px;
+    text-decoration: none;
+    position: absolute;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-left: 65px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  #botaoCopia:hover{
+    background-color: rgb(58, 211, 97);
+}
+
+  #copiararea{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 3px;
+    background-color:  #f5f5f0;
+    box-sizing: border-box;
+    display: table;
+    margin: auto;
+    resize: none;
+    margin-left: 30px; 
+    
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    position: absolute;
+    justify-content: center;
+    top: 95%;
+    left: 44% ;
+    border: 2px solid white;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+
+
+.git{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: white;
+    position: absolute;
+    justify-content: center;
+    top: 95%;
+    left: 49%;
+    border: 2px solid white;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    position: absolute;
+    justify-content: center;
+    top: 95%;
+    left: 54%;
+    border: 2px solid white;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+.reproducao{
+    background-color: #347cd9;
+    color:white;
+    border-radius: 5px;
+    padding: 3px 3px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 500px;
+    left: 50px;
+    
+}
